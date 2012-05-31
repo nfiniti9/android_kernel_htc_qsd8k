@@ -164,7 +164,7 @@ obj-$(CONFIG_MACH_BRAVOC) += board-bravo-smb329.o
 
 obj-$(CONFIG_HTC_ACOUSTIC) += htc_acoustic.o
 obj-$(CONFIG_HTC_ACOUSTIC_QSD) += htc_acoustic_qsd.o
-obj-$(CONFIG_HTC_BATTCHG) += htc_battery.o
+obj-$(CONFIG_HTC_BATTCHG) += smb329.o htc_battery.o
 obj-$(CONFIG_HTC_PWRSINK) += htc_pwrsink.o
 obj-$(CONFIG_HTC_PWRSPLY) += htc_power_supply.o
 obj-$(CONFIG_HTC_HEADSET) += htc_headset.o
